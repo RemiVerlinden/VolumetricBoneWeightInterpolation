@@ -1,0 +1,12 @@
+# Python virtual environments
+venv/
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore .claude if not source
+.claude
+
+# Ignore output files, if appropriate
+# box_bounds.txt
+# *.ply

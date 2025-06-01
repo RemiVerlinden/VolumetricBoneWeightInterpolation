@@ -1,0 +1,16 @@
+sudo: false
+language:
+    - python
+    - cpp
+python:
+    - "3.5"
+    - "3.6"
+    - "3.8"
+install: pip install tox-travis
+script: tox
+notifications:
+    email: false
+compiler:
+    - clang
+    - gcc
+

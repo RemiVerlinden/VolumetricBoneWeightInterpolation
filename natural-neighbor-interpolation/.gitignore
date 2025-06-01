@@ -1,0 +1,11 @@
+nn
+.ycm_extra_conf.py
+build
+dist
+__pycache__
+*.py[co]
+*.so
+MANIFEST
+*.egg-info
+.cache
+.python-version
